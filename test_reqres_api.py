@@ -6,7 +6,7 @@ HEADERS = {"Content-Type": "application/json", "x-api-key": "reqres-free-v1"}
 
 class TestAPI:
     """
-    Класс тестов для работы с REST API
+    Класс тестов для работы с REST API!
     """
     def test_get_single_user(self):
         """
@@ -27,7 +27,7 @@ class TestAPI:
 
     def test_add_user(self):
         """
-        Проверка создания нового пользователя
+        Проверка создания нового пользователя!
         """
         user_data = {
             "fullName": "Elizaveta Vladimirova",
